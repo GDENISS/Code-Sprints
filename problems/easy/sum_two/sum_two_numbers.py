@@ -1,3 +1,6 @@
 def sumTwoNumbers(a: int, b: int) -> int:
     # Write your code here
-    pass
+    return a + b
+    
+see = sumTwoNumbers(4,5)
+print(see)
