@@ -1,7 +1,6 @@
-
-# p =original price
-#  d = percentage discount
-
 def getdiscountedPS(p,d):
-    
-    return 0
+    price =( p*d)/100
+    return price
+
+see = getdiscountedPS(1500,50)
+print(see)
